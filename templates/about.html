@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="content">
+  <h2>Welcome to the Health Recommender System</h2>
+  <p>
+    At Health Recommender System, our mission is to empower individuals to lead healthier lives by providing personalized health recommendations based on the latest scientific research and individual health data.
+    Our system leverages advanced algorithms and machine learning techniques to offer tailored advice on nutrition, exercise, and overall wellness.
+  </p>
+  <h2>Our Team</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-4 text-center">
+      <img src="{{ url_for('static', filename='TruongHoTuongHan.jpg') }}" alt="TruongHoTuongHan" class="img-fluid">
+      <h3>Truong Ho Tuong, Han (Hanry)</h3>
+      <p>CEO & Founder</p>
+      <p>Hanry has over 20 years of experience in the healthcare industry and a passion for technology and innovation.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
